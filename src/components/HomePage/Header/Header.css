@@ -1,0 +1,149 @@
+.header-main{
+    padding: 0 30px;
+    display: flex;
+    height: 500px;
+    position: relative;
+}
+.header-main_left{
+    width: 60%;
+}
+.header-main_right{
+    background: #6E98A6;
+    width: 40%;
+}
+.header-main_right h2{
+    font-size: 42px;
+    line-height: 56px;
+}
+.header-main_right p{
+    font-size: 16px;
+    line-height: 24px;
+}
+.header-main_right button{
+    background: #DAD398;
+    height: 60px;
+    width: 190px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.header-main_right button:hover{
+    background: transparent;
+    color:#DAD398 ;
+    border: 2px solid #DAD398;
+} 
+.header-main_right .content{
+    padding: 50px 50px;
+}
+.header-main_right img{
+    width: 198px;
+    height: 198px;
+    position: absolute;
+    right: 50px;
+    bottom:5px
+}
+
+
+
+
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 120px;
+    font-size: 18px;
+    
+}
+.navbar .logo{
+    width: 118px;
+    height:40px;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+nav ul{list-style: none;}
+nav ul li{
+    display: inline-block;
+    padding: 0 15px;
+    transition: 0.5s;
+}
+
+ 
+nav ul li .active{
+    color: #DAD398;
+}
+nav ul li a:hover{
+    color: #DAD398;
+}
+.search-bar{
+    
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom:  1px solid #6E98A6;
+    
+}
+.search-bar input{
+    width: 302px;
+    border: none;
+    outline: none;
+}
+.search-bar img{
+    height: 20px;
+    width: 20px;
+    float: right;
+    cursor: pointer;
+}
+.navbar .mega-menu{
+    position: absolute;
+    background: #ffffff;
+    color: rgba(0, 0, 0, 0.5);
+    width: 1110px;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid #6E98A6;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    visibility: hidden;
+    top: 95px;
+    left: 120px;
+    transition: 0.5s;
+    z-index: 1;
+    
+}
+.navbar ul li:nth-child(3):hover .mega-menu{
+    visibility: visible;
+}
+.mega-menu .left{
+    display: flex;
+    box-sizing: border-box;
+    
+}
+.mega-menu .left .content{
+    margin-left: 30px;
+}
+.mega-menu .left .content .item {
+    padding: 3px 0;
+    cursor: pointer;
+    
+}
+.mega-menu .left .content .item:hover{
+    color: #DAD398;
+}
+
+.mega-menu .right img{
+     width: 482px;
+     height: 270px;
+}
+
